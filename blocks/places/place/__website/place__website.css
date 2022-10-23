@@ -1,0 +1,7 @@
+.place__website {
+  margin: 0;
+  display: grid;
+  grid-template-rows: repeat(2, minmax(min-content, max-content));
+  gap: 12px;
+  align-self: flex-end;
+}
