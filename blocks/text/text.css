@@ -1,4 +1,4 @@
-.cover__text {
+.text {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .cover__text {
+  .text {
     max-width: 288px;
   }
 }
