@@ -4,7 +4,8 @@
   row-gap: 48px;
   grid-template-columns: min-content minmax(min-content, max-content);
   grid-template-rows: repeat(2, min-content);
-  margin-top: 80px;
+  margin: 80px auto 0;
+  padding: 0;
 }
 
 @media screen and (min-width: 1279px) {
@@ -26,4 +27,8 @@
     row-gap: 32px;
     margin-top: 50px;
   }
+}
+
+.place:first-of-type {
+  margin-top: 0;
 }

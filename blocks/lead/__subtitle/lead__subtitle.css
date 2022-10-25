@@ -4,19 +4,24 @@
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;
-  margin: 32 auto 0;
-  bottom: 0;
+  margin: 32px auto 56px;
   text-align: center;
-  width: 640px;
-  align-self: center;
+  max-width: 640px;
   font-style: normal;
+  padding: 0;
 }
 
 @media screen and (max-width: 767px) {
   .lead__subtitle {
+    margin: 16px auto 40px;
     font-size: 16px;
     line-height: 20px;
-    margin-top: 16px;
-    width: 288px;
+    max-width: 288px;
+  }
+}
+
+@media screen and (min-width: 1279px) {
+  .lead__subtitle {
+    margin-bottom: 64px;
   }
 }
