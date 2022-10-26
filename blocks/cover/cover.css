@@ -1,34 +1,39 @@
 .cover {
   position: relative;
   display: flex;
-  /* background-image: url("../../images/cover__train-station.png"); */
   min-height: 640px;
   width: 100%;
   margin: 92px 0 0;
   justify-content: center;
   align-content: center;
+  background-image: url("../../images/cover__train-station.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 @media screen and (min-width: 1279px) {
   .cover {
-    margin: 92px auto 0;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 1184px;
-    min-height: 640px;
+    min-height: 740px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover {
-    margin: 92px auto 0;
-    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 768px;
     min-height: 480px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover {
-    margin: 66px auto 0;
+    margin-top: 66px;
     min-height: 200px;
-    max-width: 320px;
+    min-width: 320px;
   }
 }

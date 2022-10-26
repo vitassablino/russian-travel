@@ -16,16 +16,17 @@
           alt="лого шапки"
         />
         <ul class="header__lang-links">
-          <li class="list-element">
+          <li class="header__list-element">
             <a href="#!" class="header__lang-link header__lang-link_active"
               >Ru</a
             >
           </li>
-          <li class="list-element">
+          <li class="header__list-element">
             <a class="header__lang-link" href="#!">En</a>
           </li>
         </ul>
       </header>
+
       <main class="content">
         <section class="lead">
           <h1 class="lead__title">Путешествия по России</h1>
@@ -78,92 +79,94 @@
           </ul>
         </section>
 
-        <ul class="photo-grid">
-          <li class="photo-grid__list-element">
-            <img
-              class="photo-grid__item"
-              src="./images/photo-grid__train-window.png"
-              alt="Окно поезда"
-            />
-          </li>
-          <li class="photo-grid__list-element">
-            <img
-              class="photo-grid__item"
-              src="./images/photo-grid__mounts.png"
-              alt="Горы"
-            />
-          </li>
-          <li class="photo-grid__list-element">
-            <img
-              class="photo-grid__item"
-              src="./images/photo-grid__dog.png"
-              alt="Собака на сене"
-            />
-          </li>
-          <li class="photo-grid__list-element">
-            <img
-              class="photo-grid__item"
-              src="./images/photo-grid__fog-wood.png"
-              alt="Туманный лес"
-            />
-          </li>
-          <li class="photo-grid__list-element">
-            <img
-              class="photo-grid__item"
-              src="./images/photo-grid__ice.png"
-              alt="Лёд"
-            />
-          </li>
-          <li class="photo-grid__list-element">
-            <img
-              class="photo-grid__item"
-              src="./images/photo-grid__beach.png"
-              alt="Пляж"
-            />
-          </li>
-          <li class="photo-grid__list-element">
-            <img
-              class="photo-grid__item"
-              src="./images/photo-grid__two-mounts.png"
-              alt="Две горы"
-            />
-          </li>
-          <li class="photo-grid__list-element">
-            <img
-              class="photo-grid__item"
-              src="./images/photo-grid__road-sign.png"
-              alt="Дорожный знак"
-            />
-          </li>
-          <li class="photo-grid__list-element">
-            <img
-              class="photo-grid__item"
-              src="./images/photo-grid__hills.png"
-              alt="Холмы"
-            />
-          </li>
-          <li class="photo-grid__list-element">
-            <img
-              class="photo-grid__item"
-              src="./images/photo-grid__mount.png"
-              alt="Гора"
-            />
-          </li>
-          <li class="photo-grid__list-element">
-            <img
-              class="photo-grid__item"
-              src="./images/photo-grid__rocky-beach.png"
-              alt="Скалистый пляж"
-            />
-          </li>
-          <li class="photo-grid__list-element">
-            <img
-              class="photo-grid__item"
-              src="./images/photo-grid__rock.png"
-              alt="Скала"
-            />
-          </li>
-        </ul>
+        <section class="photo-grid">
+          <ul class="photo-grid__list">
+            <li class="photo-grid__list-element">
+              <img
+                class="photo-grid__item"
+                src="./images/photo-grid__train-window.png"
+                alt="Окно поезда"
+              />
+            </li>
+            <li class="photo-grid__list-element">
+              <img
+                class="photo-grid__item"
+                src="./images/photo-grid__mounts.png"
+                alt="Горы"
+              />
+            </li>
+            <li class="photo-grid__list-element">
+              <img
+                class="photo-grid__item"
+                src="./images/photo-grid__dog.png"
+                alt="Собака на сене"
+              />
+            </li>
+            <li class="photo-grid__list-element">
+              <img
+                class="photo-grid__item"
+                src="./images/photo-grid__fog-wood.png"
+                alt="Туманный лес"
+              />
+            </li>
+            <li class="photo-grid__list-element">
+              <img
+                class="photo-grid__item"
+                src="./images/photo-grid__ice.png"
+                alt="Лёд"
+              />
+            </li>
+            <li class="photo-grid__list-element">
+              <img
+                class="photo-grid__item"
+                src="./images/photo-grid__beach.png"
+                alt="Пляж"
+              />
+            </li>
+            <li class="photo-grid__list-element">
+              <img
+                class="photo-grid__item"
+                src="./images/photo-grid__two-mounts.png"
+                alt="Две горы"
+              />
+            </li>
+            <li class="photo-grid__list-element">
+              <img
+                class="photo-grid__item"
+                src="./images/photo-grid__road-sign.png"
+                alt="Дорожный знак"
+              />
+            </li>
+            <li class="photo-grid__list-element">
+              <img
+                class="photo-grid__item"
+                src="./images/photo-grid__hills.png"
+                alt="Холмы"
+              />
+            </li>
+            <li class="photo-grid__list-element">
+              <img
+                class="photo-grid__item"
+                src="./images/photo-grid__mount.png"
+                alt="Гора"
+              />
+            </li>
+            <li class="photo-grid__list-element">
+              <img
+                class="photo-grid__item"
+                src="./images/photo-grid__rocky-beach.png"
+                alt="Скалистый пляж"
+              />
+            </li>
+            <li class="photo-grid__list-element">
+              <img
+                class="photo-grid__item"
+                src="./images/photo-grid__rock.png"
+                alt="Скала"
+              />
+            </li>
+          </ul>
+        </section>
 
         <section class="places">
           <div class="place">
@@ -182,7 +185,7 @@
               alt="Куршская коса"
               src="./images/places__kurshskaya-kosa.png"
             />
-            <article class="place__paragraphs">
+            <div class="place__paragraphs">
               <p class="place__paragraph">
                 Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два
                 водных горизонта — спокойного Куршского залива с одной стороны и
@@ -197,7 +200,7 @@
                 исключает суету, окуная в спокойствие природы и запах стального,
                 прохладного моря.
               </p>
-            </article>
+            </div>
           </div>
           <div class="place">
             <h3 class="place__title">Кольский</h3>
@@ -328,22 +331,19 @@
             </div>
           </div>
         </section>
+
         <section class="cover">
-          <!-- <div class="cover__background"></div> -->
-          <div class="text">
-            <h2 class="text__title">
-              <a
-                class="text__link"
-                href="https://stampsy.com/na-elektrichkakh-do-baikala"
-                target="_blank"
-                >До Байкала «на&nbsp;собаках»</a
-              >
-            </h2>
-            <p class="text__subtitle">
+          <a
+            class="cover__text"
+            href="https://stampsy.com/na-elektrichkakh-do-baikala"
+            target="_blank"
+          >
+            <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
+            <p class="cover__subtitle">
               По мотивам учебной темы о Транссибе — путешествие от столицы до
               Байкала на электричках.
             </p>
-          </div>
+          </a>
         </section>
       </main>
 

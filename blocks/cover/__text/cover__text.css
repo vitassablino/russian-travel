@@ -1,9 +1,9 @@
-.text {
+.cover__text {
   position: relative;
+  text-decoration: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url("../../images/cover__train-station.png");
   min-height: 640px;
   width: 100%;
   margin: 0;
@@ -15,27 +15,28 @@
 }
 
 @media screen and (min-width: 1279px) {
-  .text {
+  .cover__text {
     max-width: 1184px;
     min-height: 640px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .text {
+  .cover__text {
     max-width: 768px;
     min-height: 480px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .text {
+  .cover__text {
     min-height: 200px;
     max-width: 320px;
   }
 }
 
-.text::before {
+.cover__text::before {
+  position: absolute;
   content: "";
   background-color: #2a2c2f;
   opacity: 0.3;
@@ -45,5 +46,19 @@
   height: 100%;
   top: 0;
   left: 0;
-  z-index: -5;
+  z-index: 0;
+  transition: opacity 2s linear;
+}
+
+.cover__text:hover::before {
+  content: "";
+  background-color: #2a2c2f;
+  opacity: 0.8;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
 }

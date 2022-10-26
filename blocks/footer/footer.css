@@ -15,7 +15,8 @@
 
 @media screen and (max-width: 767px) {
   .footer {
-    padding: 64px 18px auto 0;
+    padding-top: 64px;
+    padding-left: 18px;
     align-self: flex-start;
     grid-template-columns: max-content;
     grid-template-rows: repeat(2, max-content);

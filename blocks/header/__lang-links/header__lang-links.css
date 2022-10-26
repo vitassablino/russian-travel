@@ -1,6 +1,5 @@
 .header__lang-links {
   display: flex;
-  margin: auto 20px;
+  margin: 0;
   padding: 0;
-  justify-content: space-between;
 }

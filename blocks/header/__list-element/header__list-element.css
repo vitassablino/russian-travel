@@ -1,9 +1,9 @@
-.list-element {
+.header__list-element {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.list-element:first-of-type {
+.header__list-element:first-of-type {
   margin-right: 18px;
 }
