@@ -9,13 +9,6 @@
   padding: 0;
 }
 
-@media screen and (min-width: 1279px) {
-  .photo-grid {
-    grid-template-columns: repeat(4, min-content);
-    gap: 16px;
-  }
-}
-
 @media screen and (max-width: 1023px) {
   .photo-grid {
     grid-template-columns: repeat(2, min-content);
@@ -29,5 +22,12 @@
     grid-template-columns: min-content;
     gap: 12px;
     margin-top: 64px;
+  }
+}
+
+@media screen and (min-width: 1279px) {
+  .photo-grid {
+    grid-template-columns: repeat(4, min-content);
+    gap: 16px;
   }
 }
