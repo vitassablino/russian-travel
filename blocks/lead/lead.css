@@ -2,6 +2,7 @@
   margin: 48px 48px 0;
   display: flex;
   flex-direction: column;
+  padding: 0;
 }
 
 @media screen and (min-width: 1280px) {
